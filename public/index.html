@@ -66,10 +66,12 @@
     await go.run(inst);
 
     inst = await WebAssembly.instantiate(mod, go.importObject); // reset instance
+    
+    
+    transforImg2Base('resize')
 
   }
 </script>
-
   <script>
 
   function transforImg2Base(type) {
@@ -88,6 +90,10 @@
   function attachToNext(type, str) {
     loadImageHandle(type, str)
   }
+
+  setTimeout(function(){
+    transforImg2Base('resize')
+  },1200)
  
 </script>
 </html>
