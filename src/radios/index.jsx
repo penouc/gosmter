@@ -4,9 +4,24 @@ import { Radio } from "antd";
 const RadioGroup = Radio.Group;
 
 export default class Radios extends Component {
+  state = {
+    value: "resize"
+  };
+
+  onChange = e => {
+    window.transforImg2Base(e.target.value);
+    this.setState({
+      value: e.target.value
+    });
+  };
+
   render() {
     return (
-      <RadioGroup name="radiogroup" defaultValue={"resize"}>
+      <RadioGroup
+        name="radiogroup"
+        onChange={this.onChange}
+        value={this.state.value}
+      >
         <Radio value={"resize"}>resize</Radio>
         <Radio value={"crop_to_size"}>crop_to_size</Radio>
         <Radio value={"rotate_180"}>rotate_180</Radio>
