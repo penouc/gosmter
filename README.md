@@ -19,9 +19,11 @@ demo url: [https://penouc.com/gosmter/](https://penouc.com/gosmter/)
   + go > 1.11 
   + nodejs > 8 
   
-如果 go 的版本有问题，执行 `brew upgrade go` ， 或者 `nodejs` 的版本有问题，执行 `nvm install v8.11.0 && nvm use v8.11.0`
-然后需要安装 go 的依赖 gift ，项目地址 [https://github.com/disintegration/gift](https://github.com/disintegration/gift) , 执行 `go get -u github.com/disintegration/gift`
-接下来，在主目录下执行 `npm run start` 或者 `yarn start` 即可
+  如果 go 的版本有问题，执行 `brew upgrade go` ， 或者 `nodejs` 的版本有问题，执行 `nvm install v8.11.0 && nvm use v8.11.0`
+  然后需要安装 go 的依赖 `gift` ，
+  项目地址 [https://github.com/disintegration/gift](https://github.com/disintegration/gift) , 
+  执行 `go get -u github.com/disintegration/gift`
+  接下来，在主目录下执行 `npm run start` 或者 `yarn start` 即可
   
   
 ##
