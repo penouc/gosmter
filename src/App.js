@@ -18,7 +18,7 @@ class App extends Component {
             <Radios />
           </div>
           <Picer id="pic-origin" src="./images/src.jpg" />
-          <Picer id="pic-target" src="" />
+          <Picer id="pic-target" src="./images/group.png" />
         </div>
       </div>
     );
