@@ -1,7 +1,7 @@
 # gosmter
 
 一个基于 go 编译的 wasm 的实现了图片滤镜的 web 应用
-g
+
 A web Application what used to do images filter , which Based on wasm that written by go-lang .
 
 
