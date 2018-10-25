@@ -7,9 +7,9 @@ A web Application what used to do images filter , which Based on wasm that writt
 
 ## Demo 
 
-访问地址: [https://penouc.com/gosmter/](https://penouc.com/gosmter/)
+访问地址: [https://penouc.github.io/gosmter/](https://penouc.github.io/gosmter/)
 
-demo url: [https://penouc.com/gosmter/](https://penouc.com/gosmter/)
+demo url: [https://penouc.github.io/gosmter/](https://penouc.github.io/gosmter/)
 
 ## 介绍 / Introduction
 
