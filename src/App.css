@@ -35,7 +35,7 @@
 }
 
 .main-content {
-  width: 80%;
+  width: 96%;
   margin: 8px auto;
   background: #eee;
   border-radius: 6px;
@@ -51,9 +51,19 @@
   display: inline-block;
 }
 
+.uploader-buttons {
+  margin-left: 12px;
+}
+
+.uploader-buttons span {
+  display: inline-block;
+  margin-right: 12px;
+}
+
 .main-content .pic-wrap {
   display: inline-block;
   width: 45%;
+  position: relative;
 }
 
 .main-content .pic-img {

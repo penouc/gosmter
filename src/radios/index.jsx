@@ -9,6 +9,10 @@ export default class Radios extends Component {
   };
 
   onChange = e => {
+    if (e.target.value === "0") {
+      return;
+    }
+    document.querySelector("#tranform-loading").style.display = "inline-block";
     window.transforImg2Base(e.target.value);
     this.setState({
       value: e.target.value

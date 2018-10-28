@@ -28,6 +28,7 @@ func loadImageHandle(i []js.Value) {
 	str := i[1].String()
 	transStr := trans(filtertype, str)
 	js.Global().Get("document").Call("getElementById", "pic-target").Set("src", transStr)
+	js.Global().Get("document").Call("getElementById", "tranform-loading").Get("style").Set("display", "none")
 }
 
 func trans(filtertype, base64str string) string {

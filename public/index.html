@@ -74,24 +74,25 @@
 
   function transforImg2Base(type) {
     let Img = document.querySelector('#pic-origin');
+
     let canvas = document.createElement('canvas');
     let width = Img.naturalWidth, //确保canvas的尺寸和图片一样
       height = Img.naturalHeight;
     canvas.width = width;
     canvas.height = height;
     canvas.getContext("2d").drawImage(Img, 0, 0);
+
     let str = canvas.toDataURL('image/jpeg');
 
+    console.time('transform');
     attachToNext(type, str)
+    console.timeEnd('transform');
   }
 
   function attachToNext(type, str) {
     loadImageHandle(type, str)
   }
 
-  setTimeout(function () {
-    transforImg2Base('resize')
-  }, 1200)
 
 </script>
 
