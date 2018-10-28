@@ -6,7 +6,8 @@ const RadioGroup = Radio.Group;
 export default class Radios extends Component {
   render() {
     return (
-      <RadioGroup name="radiogroup" defaultValue={"resize"}>
+      <RadioGroup name="radiogroup" defaultValue={"0"}>
+        <Radio value={"0"}>无</Radio>
         <Radio value={"resize"}>resize</Radio>
         <Radio value={"crop_to_size"}>crop_to_size</Radio>
         <Radio value={"rotate_180"}>rotate_180</Radio>
