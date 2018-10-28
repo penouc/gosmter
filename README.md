@@ -30,3 +30,4 @@ demo url: [https://penouc.github.io/gosmter/](https://penouc.github.io/gosmter/)
 - 允许自己添加图片 ✅
 - 优化初始化加载体验 ✅
 - 使用 `go·dom` 作为 wasm 中的取 dom 结构的框架
+- 尝试使用 buffer 在 js 和 wasm 间传递是不是快一些
