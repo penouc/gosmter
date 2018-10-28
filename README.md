@@ -26,7 +26,7 @@ demo url: [https://penouc.github.io/gosmter/](https://penouc.github.io/gosmter/)
   接下来，在主目录下执行 `npm run start` 或者 `yarn start` 即可
   
   
-## 带添加 / todos
+## 待添加 / todos
   + 允许自己添加图片
   + 优化初始化加载体验
   
