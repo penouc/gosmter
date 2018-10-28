@@ -42,6 +42,7 @@ export default class Uploader extends Component {
           <Button>
             <Icon type="upload" /> 选择图片文件
           </Button>
+          （目前只支持 jpg 和 png 文件）
         </Upload>
       </div>
     );
