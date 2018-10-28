@@ -24,6 +24,12 @@
   font-size: 18px;
 }
 
+.header-sec-title {
+  font-size: 12px;
+  color: bisque;
+  font-family: serif;
+}
+
 .App-link {
   color: #61dafb;
 }

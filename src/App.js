@@ -8,14 +8,17 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <p>Gosmter</p>
+          <p>
+            Gosmter&nbsp;
+            <span className="header-sec-title">( Based on Go gift )</span>
+          </p>
         </header>
         <div className="main-content">
           <div className="filter-select">
             <Radios />
           </div>
           <Picer id="pic-origin" src="./images/src.jpg" />
-          <Picer id="pic-target" />
+          <Picer id="pic-target" src="./images/group.png" />
         </div>
       </div>
     );
