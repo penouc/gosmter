@@ -1,7 +1,7 @@
 {
   "main.css": "/gosmter/static/css/main.7f13b5ef.chunk.css",
-  "main.js": "/gosmter/static/js/main.7db46385.chunk.js",
-  "main.js.map": "/gosmter/static/js/main.7db46385.chunk.js.map",
+  "main.js": "/gosmter/static/js/main.2f6cd0f4.chunk.js",
+  "main.js.map": "/gosmter/static/js/main.2f6cd0f4.chunk.js.map",
   "static/css/1.2b9aa1fc.chunk.css": "/gosmter/static/css/1.2b9aa1fc.chunk.css",
   "static/js/1.0860fa18.chunk.js": "/gosmter/static/js/1.0860fa18.chunk.js",
   "static/js/1.0860fa18.chunk.js.map": "/gosmter/static/js/1.0860fa18.chunk.js.map",
@@ -10,6 +10,6 @@
   "static/css/1.2b9aa1fc.chunk.css.map": "/gosmter/static/css/1.2b9aa1fc.chunk.css.map",
   "static/css/main.7f13b5ef.chunk.css.map": "/gosmter/static/css/main.7f13b5ef.chunk.css.map",
   "index.html": "/gosmter/index.html",
-  "precache-manifest.c36a33af965cdd85305af97e14f1e351.js": "/gosmter/precache-manifest.c36a33af965cdd85305af97e14f1e351.js",
+  "precache-manifest.d0bd9833b914b401d2f7b29915806641.js": "/gosmter/precache-manifest.d0bd9833b914b401d2f7b29915806641.js",
   "service-worker.js": "/gosmter/service-worker.js"
 }
